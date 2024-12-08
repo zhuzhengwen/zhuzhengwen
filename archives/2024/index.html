@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="keywords" content="Hexo Theme Keep">
     <meta name="description" content="Hexo Theme Keep">
-    <meta name="author" content="Keep Team">
+    <meta name="author" content="zhengwen">
     
     <title>
         
             Archive: 2024 |
         
-        Keep Theme
+        ZhengWen&#39;s Blog
     </title>
     
 <link rel="stylesheet" href="/zhuzhengwen/css/style.css">
@@ -34,8 +34,8 @@
     
     <script class="keep-theme-configurations">
     const KEEP = window.KEEP || {}
-    KEEP.hexo_config = {"hostname":"zhuzhengwen.github.io","root":"/zhuzhengwen/","language":"en"}
-    KEEP.theme_config = {"base_info":{"primary_color":"#0066cc","title":"Keep Theme","author":"Keep Team","avatar":"/images/avatar.svg","logo":"/images/logo.svg","favicon":"/images/logo.svg"},"menu":{"home":"/","archives":"/archives","tags":"/tags","categories":"/categories","links":"/links","photos":"/photos","tools":"/tools","about":"/about"},"first_screen":{"enable":true,"background_img":"/images/bg.svg","background_img_dark":"/images/bg.svg","description":"Keep writing and Keep loving.","hitokoto":false},"social_contact":{"enable":true,"links":{"github":null,"weixin":null,"qq":null,"weibo":null,"zhihu":null,"twitter":null,"x":null,"facebook":null,"email":null}},"scroll":{"progress_bar":false,"percent":false,"hide_header":true},"home":{"announcement":null,"category":true,"tag":true,"post_datetime":"updated"},"post":{"author_badge":{"enable":true,"level_badge":true,"custom_badge":["One","Two","Three"]},"word_count":{"wordcount":true,"min2read":true},"datetime_format":"YYYY-MM-DD HH:mm:ss","copyright_info":true,"share":true,"reward":{"enable":true,"img_link":null,"text":null,"icon":null}},"code_block":{"tools":{"enable":false,"style":"default"},"highlight_theme":"default"},"toc":{"enable":false,"number":false,"expand_all":false,"init_open":true,"layout":"right"},"website_count":{"busuanzi_count":{"enable":false,"site_uv":false,"site_pv":false,"page_pv":false}},"local_search":{"enable":false,"preload":false},"comment":{"enable":false,"use":"valine","valine":{"appid":null,"appkey":null,"server_urls":null,"placeholder":null},"gitalk":{"github_id":null,"github_admins":null,"repository":null,"client_id":null,"client_secret":null,"proxy":null},"twikoo":{"env_id":null,"region":null,"version":"1.6.39"},"waline":{"server_url":null,"reaction":false,"version":"3.3.2"},"giscus":{"repo":null,"repo_id":null,"category":"Announcements","category_id":null,"reactions_enabled":false},"artalk":{"server":null},"disqus":{"shortname":null}},"rss":{"enable":false},"lazyload":{"enable":false},"cdn":{"enable":false,"provider":"cdnjs"},"pjax":{"enable":false},"footer":{"since":2020,"word_count":false,"site_deploy":{"enable":false,"provider":"github","url":null},"record":{"enable":false,"list":[{"code":null,"link":null}]}},"inject":{"enable":false,"css":[null],"js":[null]},"root":"/zhuzhengwen","source_data":{},"version":"4.2.5"}
+    KEEP.hexo_config = {"hostname":"zhuzhengwen.github.io","root":"/zhuzhengwen/","language":"en","path":"search.json"}
+    KEEP.theme_config = {"base_info":{"primary_color":"#0066cc","title":"ZhengWen's Blog","author":"zhengwen","avatar":"/images/avatar.svg","logo":"/images/logo.svg","favicon":"/images/logo.svg"},"menu":{"首页":"/","时间线":"/archives","标签":"/tags","分类":"/categories","链接":"/links","瞬间":"/photos","关于我":"/about"},"first_screen":{"enable":true,"background_img":"/images/bg.svg","background_img_dark":"/images/bg.svg","description":"Keep writing and Keep loving.","hitokoto":false},"social_contact":{"enable":false,"links":{"github":null,"weixin":null,"qq":null,"weibo":null,"zhihu":null,"twitter":null,"x":null,"facebook":null,"email":null}},"scroll":{"progress_bar":true,"percent":true,"hide_header":true},"home":{"announcement":null,"category":true,"tag":true,"post_datetime":"updated"},"post":{"author_badge":{"enable":false,"level_badge":false,"custom_badge":["One","Two","Three"]},"word_count":{"wordcount":true,"min2read":true},"datetime_format":"YYYY-MM-DD HH:mm:ss","copyright_info":true,"share":true,"reward":{"enable":true,"img_link":null,"text":null,"icon":null}},"code_block":{"tools":{"enable":false,"style":"mac"},"highlight_theme":"obsidian"},"toc":{"enable":false,"number":false,"expand_all":false,"init_open":true,"layout":"right"},"website_count":{"busuanzi_count":{"enable":true,"site_uv":false,"site_pv":false,"page_pv":false}},"local_search":{"enable":true,"preload":true},"comment":{"enable":false,"use":"valine","valine":{"appid":null,"appkey":null,"server_urls":null,"placeholder":null},"gitalk":{"github_id":null,"github_admins":null,"repository":null,"client_id":null,"client_secret":null,"proxy":null},"twikoo":{"env_id":null,"region":null,"version":"1.6.39"},"waline":{"server_url":null,"reaction":false,"version":"3.3.2"},"giscus":{"repo":null,"repo_id":null,"category":"Announcements","category_id":null,"reactions_enabled":false},"artalk":{"server":null},"disqus":{"shortname":null}},"rss":{"enable":false},"lazyload":{"enable":true},"cdn":{"enable":false,"provider":"cdnjs"},"pjax":{"enable":false},"footer":{"since":2018,"word_count":false,"site_deploy":{"enable":true,"provider":"github","url":null},"record":{"enable":false,"list":[{"code":null,"link":null}]}},"inject":{"enable":false,"css":[null],"js":[null]},"root":"/zhuzhengwen","source_data":{},"version":"4.2.5"}
     KEEP.language_ago = {"second":"%s seconds ago","minute":"%s minutes ago","hour":"%s hours ago","day":"%s days ago","week":"%s weeks ago","month":"%s months ago","year":"%s years ago"}
     KEEP.language_code_block = {"copy":"Copy code","copied":"Copied","fold":"Fold code block","folded":"Folded"}
     KEEP.language_copy_copyright = {"copy":"Copy copyright info","copied":"Copied","title":"Original post title","author":"Original post author","link":"Original post link"}
@@ -45,6 +45,8 @@
 
 <body>
 <div class="progress-bar-container">
+    
+        <span class="scroll-progress-bar"></span>
     
 
     
@@ -70,7 +72,7 @@
                 </a>
             
             <a class="site-name border-box" href="/zhuzhengwen/">
-               Keep Theme
+               ZhengWen&#39;s Blog
             </a>
         </div>
 
@@ -82,7 +84,7 @@
                         <li class="menu-item flex-start border-box">
                             <a class="menu-text-color border-box" href="/zhuzhengwen/">
                                 
-                                HOME
+                                首页
                                 
                             </a>
                             
@@ -92,7 +94,7 @@
                         <li class="menu-item flex-start border-box active">
                             <a class="menu-text-color border-box" href="/zhuzhengwen/archives">
                                 
-                                ARCHIVES
+                                时间线
                                 
                             </a>
                             
@@ -102,7 +104,7 @@
                         <li class="menu-item flex-start border-box">
                             <a class="menu-text-color border-box" href="/zhuzhengwen/tags">
                                 
-                                TAGS
+                                标签
                                 
                             </a>
                             
@@ -112,7 +114,7 @@
                         <li class="menu-item flex-start border-box">
                             <a class="menu-text-color border-box" href="/zhuzhengwen/categories">
                                 
-                                CATEGORIES
+                                分类
                                 
                             </a>
                             
@@ -122,7 +124,7 @@
                         <li class="menu-item flex-start border-box">
                             <a class="menu-text-color border-box" href="/zhuzhengwen/links">
                                 
-                                LINKS
+                                链接
                                 
                             </a>
                             
@@ -132,17 +134,7 @@
                         <li class="menu-item flex-start border-box">
                             <a class="menu-text-color border-box" href="/zhuzhengwen/photos">
                                 
-                                PHOTOS
-                                
-                            </a>
-                            
-                        </li>
-                    
-                        
-                        <li class="menu-item flex-start border-box">
-                            <a class="menu-text-color border-box" href="/zhuzhengwen/tools">
-                                
-                                TOOLS
+                                瞬间
                                 
                             </a>
                             
@@ -152,16 +144,22 @@
                         <li class="menu-item flex-start border-box">
                             <a class="menu-text-color border-box" href="/zhuzhengwen/about">
                                 
-                                ABOUT
+                                关于我
                                 
                             </a>
                             
                         </li>
                     
                     
+                        <li class="menu-item search search-popup-trigger">
+                            <i class="menu-text-color fas search fa-search"></i>
+                        </li>
+                    
                 </ul>
             </div>
             <div class="mobile border-box flex-start">
+                
+                    <div class="icon-item search search-popup-trigger"><i class="fas fa-search"></i></div>
                 
                 <div class="icon-item menu-bar">
                     <div class="menu-bar-middle"></div>
@@ -178,7 +176,7 @@
                     <label class="drawer-menu-label border-box">
                         <a class="drawer-menu-text-color left-side flex-start border-box" href="/zhuzhengwen/">
                             
-                            HOME
+                            首页
                         </a>
                         
                     </label>
@@ -190,7 +188,7 @@
                     <label class="drawer-menu-label border-box">
                         <a class="drawer-menu-text-color left-side flex-start border-box" href="/zhuzhengwen/archives">
                             
-                            ARCHIVES
+                            时间线
                         </a>
                         
                     </label>
@@ -202,7 +200,7 @@
                     <label class="drawer-menu-label border-box">
                         <a class="drawer-menu-text-color left-side flex-start border-box" href="/zhuzhengwen/tags">
                             
-                            TAGS
+                            标签
                         </a>
                         
                     </label>
@@ -214,7 +212,7 @@
                     <label class="drawer-menu-label border-box">
                         <a class="drawer-menu-text-color left-side flex-start border-box" href="/zhuzhengwen/categories">
                             
-                            CATEGORIES
+                            分类
                         </a>
                         
                     </label>
@@ -226,7 +224,7 @@
                     <label class="drawer-menu-label border-box">
                         <a class="drawer-menu-text-color left-side flex-start border-box" href="/zhuzhengwen/links">
                             
-                            LINKS
+                            链接
                         </a>
                         
                     </label>
@@ -238,19 +236,7 @@
                     <label class="drawer-menu-label border-box">
                         <a class="drawer-menu-text-color left-side flex-start border-box" href="/zhuzhengwen/photos">
                             
-                            PHOTOS
-                        </a>
-                        
-                    </label>
-                    
-                </li>
-            
-                
-                <li class="drawer-menu-item border-box not-sub-menu">
-                    <label class="drawer-menu-label border-box">
-                        <a class="drawer-menu-text-color left-side flex-start border-box" href="/zhuzhengwen/tools">
-                            
-                            TOOLS
+                            瞬间
                         </a>
                         
                     </label>
@@ -262,7 +248,7 @@
                     <label class="drawer-menu-label border-box">
                         <a class="drawer-menu-text-color left-side flex-start border-box" href="/zhuzhengwen/about">
                             
-                            ABOUT
+                            关于我
                         </a>
                         
                     </label>
@@ -342,9 +328,9 @@
             
 <footer class="footer border-box">
     <div class="copyright-info info-item">
-    &copy;&nbsp;<span>2020</span>&nbsp;-&nbsp;2024
+    &copy;&nbsp;<span>2018</span>&nbsp;-&nbsp;2024
     
-            &nbsp;<i class="fas fa-heart icon-animate"></i>&nbsp;&nbsp;<a href="/zhuzhengwen/">Keep Team</a>
+            &nbsp;<i class="fas fa-heart icon-animate"></i>&nbsp;&nbsp;<a href="/zhuzhengwen/">zhengwen</a>
         
     </div>
 
@@ -352,6 +338,13 @@
         Powered by&nbsp;<a target="_blank" href="https://hexo.io">Hexo</a>&nbsp;&&nbsp;Theme&nbsp;<a class="keep-version" target="_blank" href="https://github.com/XPoet/hexo-theme-keep">Keep</a>
     </div>
 
+    
+        
+        <div class="deploy-info info-item">
+            
+            This site is deployed on <span class="tooltip" data-tooltip-content="GitHub Pages"><img src="/zhuzhengwen/images/brands/github.png"></span>
+            
+        </div>
     
 
     
@@ -419,6 +412,35 @@
 
     <!-- local search -->
     
+        <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+          <span class="search-input-field-pre">
+            <i class="fas fa-keyboard"></i>
+          </span>
+            <div class="search-input-container">
+                <input autocomplete="off"
+                       autocorrect="off"
+                       autocapitalize="off"
+                       placeholder="Search..."
+                       spellcheck="false"
+                       type="search"
+                       class="search-input"
+                >
+            </div>
+            <span class="close-popup-btn">
+                <i class="fas fa-times"></i>
+            </span>
+        </div>
+        <div id="search-result">
+            <div id="no-result">
+                <i class="fas fa-spinner fa-pulse fa-5x fa-fw"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
 
     <!-- tablet toc -->
     
@@ -448,8 +470,16 @@
 
 <!-- local search -->
 
+    
+<script src="/zhuzhengwen/js/local-search.js"></script>
+
+
 
 <!-- lazyload -->
+
+    
+<script src="/zhuzhengwen/js/lazyload.js"></script>
+
 
 
 <div class="">
