@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: 美式不加糖
+subtitle: '忽有清风化剑气，直斩少年二十意'
+description: '个性不明'
 keywords:
-author: John Doe
-language: en
-timezone: ''
+author: zw
+language: zh
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
