@@ -34,14 +34,14 @@ base_info:
 # e.g. to enable categories, you need to execute `hexo new page categories`
 # Use `||` to set icon for navigation menu, e.g. `home: / || fa-solid fa-home`
 menu:
-  home: /                       # || fa-solid fa-home
-  archives: /archives           # || fa-solid fa-box-archive
-  tags: /tags                 # || fa-solid fa-tags
-  categories: /categories     # || fa-solid fa-layer-group
-  links: /links               # || fa-solid fa-link
-  photos: /photos             # || fa-solid fa-image
+  首页: /                       # || fa-solid fa-home
+  文章: /archives           # || fa-solid fa-box-archive
+  标签: /tags                 # || fa-solid fa-tags
+  分类: /categories     # || fa-solid fa-layer-group
+  友链: /links               # || fa-solid fa-link
+  相册: /photos             # || fa-solid fa-image
 #  tools: /tools               # || fa-solid fa-tools
-  about: /about               # || fa-solid fa-user-graduate
+  关于: /about               # || fa-solid fa-user-graduate
   # ......
 
 
